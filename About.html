@@ -3,51 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Me - Fazil Zaliyev</title>
+    <link rel="stylesheet" href="Home.css">
 </head>
 <body>
-    <img src="PHOTOS/20251212_194304.jpg" height="320" width="300">
-    <h1>About Me</h1>
     <nav>
         <ul>
             <li>
-                <a href="Home.html" target=_self title="Sweet home Alabama">
-                    Return <b>Home</b>
+                <a href="Home.html" target="_self" title="Home">
+                    Home
                 </a>
             </li>
             <li>
-                <a href="Projects.html" target=_self title="See My Works">
-                    Go to <b>Projects</b>
+                <a href="About.html" target="_self" title="Know Me">
+                    About Me
+                </a>
+            </li>
+            <li>
+                <a href="Projects.html" target="_self" title="See My Works">
+                    My Projects
                 </a>
             </li>
         </ul>
     </nav>
-    
-    <h2>Fazil Zaliyev</h2>
-    <p>As a ambitios mathematics student, I am 17 years old and born and grew up in Masalli, Azerbaijan. I have completed my secondary education at Massali district 3th school. </p>
-    <p>On way to the ADA, I have got 682.6/700 from SEC exam and also a bronze medal in National Mathematics Olympiad</p>
-<style>
-    /* page content shouldn't be covered by fixed footer */
-    body { margin: 0; padding-bottom: 70px; /* set to footer height */ }
 
-    footer.fixed {
-      position: fixed;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      height: 70px;
-      background: #222;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      z-index: 1000;
-    }
+    <section class="about-hero">
+    <div class="about-content">
+        <div class="about-grid">
+            <div class="about-left">
+                <img src="PHOTOS/20251212_194304.jpg" alt="Fazil Zaliyev" class="about-photo">
+            </div>
+            <div class="about-right">
+                <h1>About Me</h1>
+                <p><b>Fazil Zaliyev</b> - An ambitious and driven mathematics student at ADA University.</p>
+                
+                <p>I am 17 years old and was born and raised in Masalli, Azerbaijan. I completed my secondary education at Masalli District School #3, where I developed a strong foundation in mathematics and science.</p>
+                
+                <p>On my journey to ADA University, I achieved outstanding results:</p>
+                <p style="margin-left: 20px; font-style: italic;">
+                    • Scored <b>682.6/700</b> on the SEC (State Exam for Completion) <br>
+                    • Won a <b>Bronze Medal</b> in the National Mathematics Olympiad
+                </p>
+                
+                <p>I am passionate about <b>mathematics</b>, <b>problem-solving</b>, and <b>technology</b>. My interests include hardware design, digital systems, and exploring the practical applications of mathematical concepts. I'm always eager to learn new skills and take on challenging projects that push my boundaries.</p>
+                
+                <p>When I'm not immersed in my studies or working on projects, you can find me:</p>
+                <p style="margin-left: 20px;">
+                    • Learning new programming concepts on platforms like CodeCademy<br>
+                    • Collaborating with teammates on engineering projects<br>
+                    • Exploring the intersection of mathematics and technology
+                </p>
+            </div>
+        </div>
+    </div>
+    </section>
 
-    footer.fixed a { color: #fff; text-decoration: underline; }
-  </style>
-</head>
+    <footer class="fixed" role="contentinfo">
+        <div>© 2025 Fazil Zaliyev</div>
+    </footer>
+
+    <style>
+        /* page content shouldn't be covered by fixed footer */
+        body { margin: 0; padding-bottom: 70px; /* set to footer height */ }
+    </style>
+</body>
+</html>
 <body>
   <!-- ...existing code... -->
 
